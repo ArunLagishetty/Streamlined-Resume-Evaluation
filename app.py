@@ -43,15 +43,15 @@ def main():
         save_uploaded_file(upload_folder, uploaded_file)
         os.system('python fileReader.py')
 main()
-image = Image.open(r'C:\Users\L.ARUN KUMAR\Desktop\Resume\resume_screening\main_web_app\Images\logo.png')
+image = Image.open('logo.png')
 st.image(image, use_column_width=True)
 
 st.title("Streamlined Resume Evaluation")
 
 
 # Reading the CSV files prepared by the fileReader.py
-Resumes = pd.read_csv(r'C:\Users\L.ARUN KUMAR\Desktop\Resume\resume_screening\main_web_app\Resume_Data.csv')
-Jobs = pd.read_csv(r'C:\Users\L.ARUN KUMAR\Desktop\Resume\resume_screening\main_web_app\Job_Data.csv')
+Resumes = pd.read_csv('Resume_Data.csv')
+Jobs = pd.read_csv('Job_Data.csv')
 
 
 ############################### JOB DESCRIPTION CODE ######################################
