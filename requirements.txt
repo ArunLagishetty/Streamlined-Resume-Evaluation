@@ -1,0 +1,14 @@
+streamlit
+tensorflow
+nltk
+matplotlib
+gensim
+wordcloud
+pandas
+plotly
+pillow
+textdistance
+scikit-learn
+textract
+spacy
+
